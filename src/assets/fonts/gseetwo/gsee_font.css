@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "GESSTextBold";
+    src: url("./GE-SS-Two-Bold.woff") format("woff"),
+    url("./GE-SS-Two-Bold.woff2") format("woff2");
+}
+
+.ff-roulette {
+
+    font-family: "GESSTextBold";
+}
+

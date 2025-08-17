@@ -1,0 +1,43 @@
+.blogCard {
+  margin-bottom: 15px;
+
+  img {
+    height: 220px;
+    object-fit: cover;
+  }
+}
+
+ul.share {
+ 
+
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+
+  li {
+    a {
+      margin: 0 5px;
+      padding: 8px 16px;
+      border-radius: 15px;
+      color: #fff;
+      font-size: 75%;
+      line-height: 18px;
+      vertical-align: middle;
+      -moz-transition: background 0.2s ease-in-out;
+      -o-transition: background 0.2s ease-in-out;
+      -webkit-transition: background 0.2s ease-in-out;
+      transition: background 0.2s ease-in-out;
+
+      &.facebook {
+        background-color: #3b5998;
+      }
+
+      &.twitter {
+
+           background: #00aced;
+      }
+    }
+  }
+}

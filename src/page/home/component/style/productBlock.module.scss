@@ -1,0 +1,29 @@
+.product {
+
+    background: #fff;
+    text-align: center;
+    padding: 15px 15px;
+    border: 1px solid var(--bs-gray-300);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    h3 {
+
+         font-size: 15px;
+    }
+
+    img {
+
+         max-height: 200px;
+         object-fit: contain;
+    }
+
+    .price {
+
+         font-size: 18px;
+         font-weight: 500;
+         color: var(--bs-success);
+    }
+}

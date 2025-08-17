@@ -1,0 +1,10 @@
+.imgCarousel {
+  @media (min-width: 1025px) {
+    height: 470px;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+     height: 200px
+  }
+}

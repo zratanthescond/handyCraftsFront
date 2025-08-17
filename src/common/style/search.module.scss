@@ -1,0 +1,23 @@
+.input {
+  padding: 10px 15px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    min-width: 90%;
+  }
+
+  @media (min-width: 1025px) {
+    min-width: 400px;
+    border-right: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+}
+
+.dropdown {
+  z-index: 6666;
+  width: 100%;
+}
+
+.btn {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}

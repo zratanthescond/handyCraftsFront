@@ -1,0 +1,15 @@
+.navLink {
+  font-weight: 500;
+  color: #222 !important;
+  font-size: 15px;
+
+  &:hover {
+    color: var(--bs-primary) !important;
+  }
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 0;
+}

@@ -1,0 +1,28 @@
+.block {
+  background: #fff;
+  text-align: center;
+  border: 1px solid var(--bs-gray-300);
+  border-radius: 5px;
+  padding: 8px 8px;
+  
+
+  @media (min-width: 1025px) {
+    
+    padding: 15px 5px;
+
+  }
+
+  h4 {
+
+     color: var(--bs-primary);
+  }
+
+  &:hover {
+    color: #fff;
+    background: #03cecb;
+
+    h4, svg {
+      color: #fff;
+    }
+  }
+}

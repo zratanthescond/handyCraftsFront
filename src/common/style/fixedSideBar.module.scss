@@ -1,0 +1,46 @@
+.container {
+
+    position: fixed;
+    top: 30%;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    transform: rotate(-90deg);
+    background: #22282e;
+    color: #fff;
+    transform-origin: bottom right;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 999;
+
+    @media (max-width: 768px) {
+
+         display: none !important;
+    }
+
+    div {
+
+        padding: 5px 8px;
+        transition: all 0.3s ease;
+
+        &:hover {
+
+             background: var(--bs-primary);
+
+             a, .btn {
+
+                color: #fff
+             }
+        }
+
+         &:not(:last-child) {
+
+             border-right: 1px solid #90969b;
+         }
+    }
+
+    .btnClose {
+
+         padding: 0 !important;
+    }
+}

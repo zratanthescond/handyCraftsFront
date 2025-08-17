@@ -1,0 +1,24 @@
+.topbar {
+
+    background: #22282e;
+    font-size: 14px;
+
+    ul {
+
+         display: flex;
+         margin-bottom: 0;
+
+         li:not(:last-child) {
+              
+            margin-right: 25px;
+         }
+    }
+
+    ul.social {
+
+        li:not(:last-child) {
+              
+            margin-right: 10px;
+         }
+    }
+}

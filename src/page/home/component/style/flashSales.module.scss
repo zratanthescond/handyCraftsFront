@@ -1,0 +1,32 @@
+.countDown {
+  li {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #ff6b81;
+    border-radius: 0.25rem;
+    min-width: 60px;
+
+    span {
+      padding: 5px 10px;
+    }
+
+    span:first-child {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    span:last-child {
+      font-size: 10px;
+      background: #a54654;
+    }
+  }
+}
+
+.productImg {
+  @media (min-width: 992px) {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+}

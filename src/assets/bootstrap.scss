@@ -1,0 +1,34 @@
+@import "~bootstrap/scss/_functions";
+
+$primary: #03cecb;
+
+$dark: #0A0A0A;
+
+$font-family-base: 'Outfit', sans-serif;
+
+$font-weight-base: 400;
+
+@import "~bootstrap/scss/_variables";
+@import "~bootstrap/scss/_mixins";
+@import "~bootstrap/scss/bootstrap";
+
+
+.pink {
+
+    color: #ff6b81 !important;
+}
+
+.fw-medium {
+
+    font-weight: 500 !important;
+}
+
+.btn-primary {
+
+     color: #fff !important;
+}
+
+.btn-link {
+
+    text-decoration: none;
+}

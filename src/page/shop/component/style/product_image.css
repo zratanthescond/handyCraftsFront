@@ -1,0 +1,17 @@
+.thumbnail-slider-wrap {
+    margin-top: 15px;
+    height: auto;
+  }
+  .thumbnail-slider-wrap .slick-track .slick-slide {
+    text-align: center;
+  }
+  .thumbnail-slider-wrap .slick-track .slick-slide img {
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+  }
+
+  .slick-slide img {
+
+     max-width: 100%;
+  }

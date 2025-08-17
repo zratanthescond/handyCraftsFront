@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "roulette";
+    src: url("./Roulette.woff2") format("woff2"),
+           url("./Roulette.woff") format("woff");
+   }
+
+.ff-roulette {
+
+     font-family: "roulette";
+}   
+
