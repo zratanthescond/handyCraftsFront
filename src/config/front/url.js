@@ -1,1 +1,1 @@
-export const baseUrl = "https://paramall.tn/";
+export const baseUrl = "https://handycrafts.store/";
