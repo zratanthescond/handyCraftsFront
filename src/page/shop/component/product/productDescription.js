@@ -19,7 +19,7 @@ export default function ProductDescription() {
   };
 
   const reduceStr = () => {
-    setDescription(product.description.substring(0, maxLength));
+    setDescription(product.description?.substring(0, maxLength));
 
     setReduced(true);
   };
